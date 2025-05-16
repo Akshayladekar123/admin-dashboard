@@ -20,7 +20,7 @@ A responsive and accessible admin dashboard web app using React, Tailwind CSS, a
 
 ## Live Demo
 
-[Live Demo]([https://your-live-demo-url.com](https://admin-dashboard-fdtepd69m-akshays-projects-41c04090.vercel.app/))
+[Live Demo](https://admin-dashboard-fdtepd69m-akshays-projects-41c04090.vercel.app/)
 
 ## 📦 Setup Instructions
 
