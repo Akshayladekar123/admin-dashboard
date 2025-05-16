@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 dark:bg-dark dark:text-white;
+}
+
+/* index.css */
+@layer components {
+  .card {
+    @apply bg-card-light dark:bg-card-dark backdrop-blur-sm bg-opacity-90;
+  }
+  .table-row {
+    @apply hover:bg-gray-100 dark:hover:bg-dark-lighter transition-colors;
+  }
+}
