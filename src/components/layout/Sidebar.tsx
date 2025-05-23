@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { ROUTES } from '../../constants/routes';
-import { HomeIcon, UsersIcon } from '../ui/CustomIcons';
+import { HomeIcon, UsersIcon, EditIcon } from '../ui/CustomIcons';
 
 const Sidebar = ({ mobileOpen }: any) => {
   return (
@@ -28,6 +28,15 @@ const Sidebar = ({ mobileOpen }: any) => {
         >
           <UsersIcon className="mr-3" />
           Users
+        </NavLink>
+        <NavLink
+          to={ROUTES.BLOGS}
+          className={({ isActive }) =>
+            `flex items-center px-6 py-3 text-gray-600 dark:text-gray-300 ${isActive ? 'bg-primary/10 text-primary dark:bg-primary/20' : 'hover:bg-gray-100 dark:hover:bg-dark'}`
+          }
+        >
+          <EditIcon className="mr-3" />
+          Blogs
         </NavLink>
       </nav>
     </aside>

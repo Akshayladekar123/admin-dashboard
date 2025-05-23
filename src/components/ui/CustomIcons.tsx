@@ -259,3 +259,25 @@ export const UserXIcon: React.FC<IconBaseProps> = (props) => {
     </svg>
   );
 };
+
+export const EditIcon: React.FC<IconBaseProps> = (props) => {
+  const { className, ...rest } = props;
+  return (
+    <svg
+      stroke="currentColor"
+      fill="none"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...rest}
+      height="1em"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M11 4h9a2 2 0 0 1 2 2v9"></path>
+      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L7 20H2v-5L18.5 2.5z"></path>
+    </svg>
+  );
+};
